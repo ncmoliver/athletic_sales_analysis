@@ -36,7 +36,8 @@ The final feature was a self-imposed challenge based on recent lessons, which in
 #### Most Sales 'Total Sales' - Region, State, City
 **Step 1:** Filter 'total_sales' by region, state, city, and product: In this step, the goal is to separate the data using the groupby(), applied .sum() to total the sales. Using pivot_table() function, applied the sum function through the aggfunc as a parameter of the pivot_table function.    
 
-**Step 2:** Clean & Sort Data: Once the data is filtered into region, state, and city we can rename the columns for better visibility and sort the data in descending order to locate the top store(s) with the most sales, listed by region, state, and city. 
+**Step 2:** Clean & Sort Data: Once the data is filtered into region, state, and city we can rename the columns for better visibility and sort the data in descending order to locate the top store(s) with the most sales, listed by region, state, and city.    
+
 ---
 #### Most Sales 'Total Sales' - Retailer
 **Step 1:** Filter 'total_sales' by retailer, region, state, city, and product: In this step, the goal is to separate the data using the groupby(), applied .sum() to total the sales. Using pivot_table() function, applied the sum function through the aggfunc as a parameter of the pivot_table function.    
