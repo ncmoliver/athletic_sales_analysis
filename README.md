@@ -20,7 +20,12 @@ The key main features used to produce this analysis is the use of the groupby() 
 | **Step 1** Import required packages:                            | Import packages and read in 2020 and 2021 csv file .                                                                                                                                                     |
 | **Step 2** Combining Dataframes:                                | The first step was combining the data from years 2020 and 2021 together into one dataframe, by rows. This means that the additional data will be listed under the previous data instead of side by side. |
 | **Step 3** Convert the date column to datatype datetime:        | The 'invoice_date' columns holds date which can be easily accessed by converting the column to a datetime datatype.                                                                                      |
-| **Step 4** Filter by # of products sold by region, state, city: | The 'invoice_date' columns holds date which can be easily accessed by converting the column to a datetime datatype.                                                                                      |
+| **Step 4** Filter by # of products sold by region, state, city: | In this program, we were tasked with using the groupby() and pivot_table() functions to find the total.                                                                                                  |
+
+1.  Filter by the number of products in each region, state, and city (groupby, pivot_table)
+2.  Call the count() function to find the total number of products for each region, state, city.
+3.                                                          |
+    | **Step 5** Filter by # of products sold by region, state, city: | The 'invoice_date' columns holds date which can be easily accessed by converting the column to a datetime datatype. |
 
 ## Key Findings
 
