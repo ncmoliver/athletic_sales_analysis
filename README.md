@@ -1,5 +1,5 @@
 # athletic-sales-analysis
-
+![gif of shoe advertisement as project logo](logo.gif)
 ## Overview
 
 This analysis focuses on refining and dissecting athletic sales data for a company. The process involved merging dataframes, standardizing and adjusting column names, and filtering large datasets to pin point specific statistics, organize data, and enhance overall readability. Utilizing the groupby() and pivot_table() functions, several key insights were obtained, including:
@@ -9,13 +9,17 @@ This analysis focuses on refining and dissecting athletic sales data for a compa
 - The retailer with the highest sales volume
 - The retailer leading in sales of Women's Athletic Footwear
 
-## Analysis Features
+## 🔦 Analysis Features
 
-The key main features used to produce this analysis is the use of the groupby() and pivot_table() functions. These two functions made organizing the data into more digestable viewpoints.
+In this assignment, several key features were incorporated, focusing on how the data was broken down. We started with two separate datasets from 2020 and 2021, using the groupby() and pivot_table() functions for our initial layer of analysis.
 
-## The Process
+The second layer of analysis involved filtering the dataset using the loc() function to extract all rows related to Women's Athletic Footwear from the 'product' column. Once this data was isolated, the groupby() and pivot_table() functions were instrumental in organizing and grouping the data.
 
-## Pre-Processing
+The final feature was a self-imposed challenge based on recent lessons, which involved formatting the money columns. I created a function called format_sales(column). This function takes a column, divides the value by one million, and formats it with a dollar sign and 'M' to represent millions, for example, $ 8.5 M.
+
+## 📲 The Process
+
+#### Pre-Processing
 
 | Step(s)         | Description         |
 | ----------------- | ---------------- |
@@ -33,17 +37,17 @@ The key main features used to produce this analysis is the use of the groupby() 
 
 | Step(s)                      | Description   |
 | -------------------- | ---------- |
-| **Step 1:** Filter 'total_sales' by region, state, city, and product: | In this step, the goal is to separate the data using the groupby(), applied .sum() to total the sales. Using pivot_table() function, applied the sum function through the aggfunc as a parameter of the pivot_table function 🥵😅. |
+| **Step 1:** Filter 'total_sales' by region, state, city, and product: | In this step, the goal is to separate the data using the groupby(), applied .sum() to total the sales. Using pivot_table() function, applied the sum function through the aggfunc as a parameter of the pivot_table function. |
 | **Step 2:** Clean & Sort Data:                           | Once the data is filtered into region, state, and city we can rename the columns for better visibility and sort the data in descending order to locate the top store(s) with the most sales, listed by region, state, and city.  |
 ---
 #### Most Sales 'Total Sales' - Retailer
 
 | Step(s)                      | Description   |
 | -------------------- | ---------- |
-| **Step 1:** Filter 'total_sales' by retailer, region, state, city, and product:   | In this step, the goal is to separate the data using the groupby(), applied .sum() to total the sales. Using pivot_table() function, applied the sum function through the aggfunc as a parameter of the pivot_table function 🥵😅. |
+| **Step 1:** Filter 'total_sales' by retailer, region, state, city, and product:   | In this step, the goal is to separate the data using the groupby(), applied .sum() to total the sales. Using pivot_table() function, applied the sum function through the aggfunc as a parameter of the pivot_table function. |
 | **Step 2:** Clean & Sort Data:                           | Once the data is filtered by retailer we can rename the columns for better visibility and sort the data in descending order to locate the top retailer with the most sales. |
 
-## Key Findings
+## 🔬 Key Findings
 
 | **Summary Finding**                | **Summary Analysis**     |
 | ------------------------------ | -------- |
@@ -57,4 +61,5 @@ The key main features used to produce this analysis is the use of the groupby() 
 
 ## References
 
-[Xpert Learning Asssistant](https://bootcampspot.instructure.com/courses/6028/external_tools/313)
+[Xpert Learning Asssistant](https://bootcampspot.instructure.com/courses/6028/external_tools/313) - Assisted in debugging throughout assignment.
+[Chatgpt](https://chatgpt.com/)- Proofreading and spell check README.
