@@ -15,21 +15,23 @@ The key main features used to produce this analysis is the use of the groupby() 
 
 ## The Process
 
-| Step                                                            | Description                                                                                                                                                                                              |
-| --------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **Step 1** Import required packages:                            | Import packages and read in 2020 and 2021 csv file .                                                                                                                                                     |
-| **Step 2** Combining Dataframes:                                | The first step was combining the data from years 2020 and 2021 together into one dataframe, by rows. This means that the additional data will be listed under the previous data instead of side by side. |
-| **Step 3** Convert the date column to datatype datetime:        | The 'invoice_date' columns holds date which can be easily accessed by converting the column to a datetime datatype.                                                                                      |
-| **Step 4** Filter by # of products sold by region, state, city: | In this program, we were tasked with using the groupby() and pivot_table() functions to find the total.                                                                                                  |
+| Step                                                            | Description                                                                                                                                                                                                                                      |
+| --------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| **Step 1** Import required packages:                            | Import packages and read in 2020 and 2021 csv file .                                                                                                                                                                                             |
+| **Step 2** Combining Dataframes:                                | The first step was combining the data from years 2020 and 2021 together into one dataframe, by rows. This means that the additional data will be listed under the previous data instead of side by side.                                         |
+| **Step 3** Convert the date column to datatype datetime:        | The 'invoice_date' columns holds date which can be easily accessed by converting the column to a datetime datatype.                                                                                                                              |
+| **Step 4** Filter by # of products sold by region, state, city: | In this step, the goal is to separate the data using the groupby() and pivot_table() functions to find the total. The end product should show you the number of product for each region, state, and city.                                        |
+| **Step 5** Clean & Sort Data:                                   | Once the data is filtered into region, state, and city we can rename the columns for better visibility and sort the data in descending order to locate the store(s) in a specific region, state, and city that offer the most products on shelf. |
 
-1.  Filter by the number of products in each region, state, and city (groupby, pivot_table)
-2.  Call the count() function to find the total number of products for each region, state, city.
-3.                                                          |
-    | **Step 5** Filter by # of products sold by region, state, city: | The 'invoice_date' columns holds date which can be easily accessed by converting the column to a datetime datatype. |
+| **Step 5** Clean & Sort Data: | Once the data is filtered into region, state, and city we can rename the columns for better visibility and sort the data in descending order to locate the store(s) in a specific region, state, and city that offer the most products on shelf. |
 
 ## Key Findings
 
-By combining 2020 sales and 2021 sale data these are some of the findings discovered through the use of the learned data analysis tools covered in Week 5 of bootcamp.
+| **Finding**                 | **Analysis**                                                       |
+| --------------------------- | ------------------------------------------------------------------ |
+| **Number of Products Sold** | The most products that an individual store offers is 216 products. |
+| \*Most Sales\*\*            | The most products that an individual store offers is 216 products. |
+| Paragraph                   | Text                                                               |
 
 -
 
