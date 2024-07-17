@@ -15,6 +15,8 @@ The key main features used to produce this analysis is the use of the groupby() 
 
 ## The Process
 
+### Determine Most Products Offered - Region, State, City
+
 | Step                                                            | Description                                                                                                                                                                                                                                      |
 | --------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
 | **Step 1** Import required packages:                            | Import packages and read in 2020 and 2021 csv file .                                                                                                                                                                                             |
