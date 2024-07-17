@@ -28,24 +28,16 @@ The final feature was a self-imposed challenge based on recent lessons, which in
 | **Step 3:** Convert the date column to datatype 🕰️ datetime: | The 'invoice_date' columns holds date which can be easily accessed by converting the column to a datetime datatype.    |
 ---
 #### Most Products Offered 'Total Number of Products' - Region, State, City
-| Step(s)           | Description         |
-| ----------------- | ---------------- |
-| **Step 1:** Filter by # of products sold by region, state, city, and product: | In this step, the goal is to separate the data using the groupby() and pivot_table() functions to find the total. The end product should show you the number of product for each region, state, and city. |
-| **Step 2:** Clean & Sort Data: | Once the data is filtered into region, state, and city we can rename the columns for better visibility and sort the data in descending order to locate the store(s) in a specific region, state, and city that offer the most products on shelf. |
+**Step 1:** Filter by # of products sold by region, state, city, and product: In this step, the goal is to separate the data using the groupby() and pivot_table() functions to find the total. The end product should show you the number of product for each region, state, and city. 
+**Step 2:** Clean & Sort Data: Once the data is filtered into region, state, and city we can rename the columns for better visibility and sort the data in descending order to locate the store(s) in a specific region, state, and city that offer the most products on shelf.
 ---
 #### Most Sales 'Total Sales' - Region, State, City
-
-| Step(s)                      | Description   |
-| -------------------- | ---------- |
-| **Step 1:** Filter 'total_sales' by region, state, city, and product: | In this step, the goal is to separate the data using the groupby(), applied .sum() to total the sales. Using pivot_table() function, applied the sum function through the aggfunc as a parameter of the pivot_table function. |
-| **Step 2:** Clean & Sort Data:                           | Once the data is filtered into region, state, and city we can rename the columns for better visibility and sort the data in descending order to locate the top store(s) with the most sales, listed by region, state, and city.  |
+**Step 1:** Filter 'total_sales' by region, state, city, and product: In this step, the goal is to separate the data using the groupby(), applied .sum() to total the sales. Using pivot_table() function, applied the sum function through the aggfunc as a parameter of the pivot_table function. 
+**Step 2:** Clean & Sort Data: Once the data is filtered into region, state, and city we can rename the columns for better visibility and sort the data in descending order to locate the top store(s) with the most sales, listed by region, state, and city. 
 ---
 #### Most Sales 'Total Sales' - Retailer
-
-| Step(s)                      | Description   |
-| -------------------- | ---------- |
-| **Step 1:** Filter 'total_sales' by retailer, region, state, city, and product:   | In this step, the goal is to separate the data using the groupby(), applied .sum() to total the sales. Using pivot_table() function, applied the sum function through the aggfunc as a parameter of the pivot_table function. |
-| **Step 2:** Clean & Sort Data:                           | Once the data is filtered by retailer we can rename the columns for better visibility and sort the data in descending order to locate the top retailer with the most sales. |
+**Step 1:** Filter 'total_sales' by retailer, region, state, city, and product: In this step, the goal is to separate the data using the groupby(), applied .sum() to total the sales. Using pivot_table() function, applied the sum function through the aggfunc as a parameter of the pivot_table function.
+**Step 2:** Clean & Sort Data: Once the data is filtered by retailer we can rename the columns for better visibility and sort the data in descending order to locate the top retailer with the most sales.
 
 ## 🔬 Key Findings
 
