@@ -47,12 +47,12 @@ The key main features used to produce this analysis is the use of the groupby() 
 
 | **Summary Finding**                | **Summary Analysis**     |
 | ------------------------------ | -------- |
-| **Number of Products Sold by Region, State, and City** | The most products that an individual store offers is 216 products.| 
-| **Most Sales by Region, State, and City**              | The region, state, city with the most sales totaled $8.28 Million in sales, selling Men's Street Footwear in the Northest region of New York, New York. Women's Apparel followed with sales of $7.8 Million in the exact same region, city. | 
- |**Most Sales by Retailer**  | The retailer with the most sales was West Gear, located in the West Region, in San Fransisco California, with 6.64 Million in sales of Women's Apparel.|      
- |**Retailer - Most Sold Women's Athletic Footwear**    | The retailer with the most sold units of Women's Athletic footwear was West Gear in the Western region, located in  San Fransisco California with a total of 12,107 units.  |  
- |**Women's Athletic Footwear - Most Sold by Day**    | The day with the most Women's Athletic Footwear out of the two years 2020 and 2021 was July 07, 2021 with 540,000 units of Women's Athletic Footwear sold.|
- |**Women's Athletic Footwear - Most Sold by Week**   | The week with the most sold Women's Athletic Footwear sold was the week of July 11, 2021 with 1,675,000 Million units sold.  |                                        
+| **Number of Products Sold by Region, State, and City** | The highest number of products offered by a single store is 216.| 
+| **Most Sales by Region, State, and City**              | The region, state, and city with the highest sales is the Northeast region, specifically New York, New York. Here, Men's Street Footwear sales totaled $8.28 million, followed closely by Women's Apparel with $7.8 million in sales.| 
+ |**Most Sales by Retailer**  | The retailer with the highest sales is West Gear, located in San Francisco, California, within the Western region. They achieved $6.64 million in sales, primarily from Women's Apparel.|      
+ |**Retailer - Most Sold Women's Athletic Footwear**    | West Gear, also in San Francisco, California, leads in units sold of Women's Athletic Footwear, with a total of 12,107 units. |  
+ |**Women's Athletic Footwear - Most Sold by Day**    | The highest sales day for Women's Athletic Footwear over the two years 2020 and 2021 was July 7, 2021, with 540,000 units sold.|
+ |**Women's Athletic Footwear - Most Sold by Week**   | The week of July 11, 2021, saw the highest sales of Women's Athletic Footwear, with a total of 1,675,000 units sold. |                                        
 
 ## Learning Experience
 
