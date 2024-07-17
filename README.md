@@ -24,6 +24,8 @@ The key main features used to produce this analysis is the use of the groupby() 
 | **Step 3** Convert the date column to datatype 🕰️ datetime: | The 'invoice_date' columns holds date which can be easily accessed by converting the column to a datetime datatype.    |
 
 ### Most Products Offered 'Total Number of Products' - Region, State, City
+| Step           | Description         |
+| ----------------- | ---------------- |
 | **Step 1** Filter by # of products sold by region, state, city, and product: | In this step, the goal is to separate the data using the groupby() and pivot_table() functions to find the total. The end product should show you the number of product for each region, state, and city. |
 | **Step 2** Clean & Sort Data: | Once the data is filtered into region, state, and city we can rename the columns for better visibility and sort the data in descending order to locate the store(s) in a specific region, state, and city that offer the most products on shelf. |
 
