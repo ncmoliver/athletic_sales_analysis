@@ -2,7 +2,7 @@
 
 ## Overview
 
-This analysis focuses on refining and dissecting athletic sales data for a company. The process involved merging dataframes, standardizing and adjusting column names, and filtering large datasets to enhance readability for users. Utilizing the groupby() and pivot_table() functions, several key insights were obtained, including:
+This analysis focuses on refining and dissecting athletic sales data for a company. The process involved merging dataframes, standardizing and adjusting column names, and filtering large datasets to pin point specific statistics, organize data, and enhance overall readability. Utilizing the groupby() and pivot_table() functions, several key insights were obtained, including:
 
 - The region with the highest product sales
 - The region generating the most revenue
@@ -54,7 +54,6 @@ The key main features used to produce this analysis is the use of the groupby() 
  |**Women's Athletic Footwear - Most Sold by Day**    | The highest sales day for Women's Athletic Footwear over the two years 2020 and 2021 was July 7, 2021, with 540,000 units sold.|
  |**Women's Athletic Footwear - Most Sold by Week**   | The week of July 11, 2021, saw the highest sales of Women's Athletic Footwear, with a total of 1,675,000 units sold. |                                        
 
-## Learning Experience
 
 ## References
 
