@@ -19,7 +19,7 @@ The final feature was a self-imposed challenge based on recent lessons, which in
 
 ## 📲 The Process
 
-#### Pre-Processing
+### Pre-Processing
 
 | Step(s)         | Description         |
 | ----------------- | ---------------- |
