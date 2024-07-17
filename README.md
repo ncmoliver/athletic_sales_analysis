@@ -23,32 +23,36 @@ The key main features used to produce this analysis is the use of the groupby() 
 | **Step 2** Combining Dataframes:      | Using the concat() function, this made combining the data from two separate csv files (for years 2020 and 2021) together into one dataframe as ease. Axis=0 ensures the two dataframes are connected by rows, **not**  side by side adding additonal columns ❌. This means that the additional data will be listed under the last row, adding additional rows ✅ |
 | **Step 3** Convert the date column to datatype 🕰️ datetime: | The 'invoice_date' columns holds date which can be easily accessed by converting the column to a datetime datatype.    |
 ---
-### Most Products Offered 'Total Number of Products' - Region, State, City
+#### Most Products Offered 'Total Number of Products' - Region, State, City
 | Step           | Description         |
 | ----------------- | ---------------- |
 | **Step 1** Filter by # of products sold by region, state, city, and product: | In this step, the goal is to separate the data using the groupby() and pivot_table() functions to find the total. The end product should show you the number of product for each region, state, and city. |
 | **Step 2** Clean & Sort Data: | Once the data is filtered into region, state, and city we can rename the columns for better visibility and sort the data in descending order to locate the store(s) in a specific region, state, and city that offer the most products on shelf. |
 ---
-### Most Sales 'Total Sales' - Region, State, City
+#### Most Sales 'Total Sales' - Region, State, City
 
 | Step                      | Description   |
 | -------------------- | ---------- |
 | **Step 1** Filter 'total_sales' by region, state, city, and product: | In this step, the goal is to separate the data using the groupby(), applied .sum() to total the sales. Using pivot_table() function, applied the sum function through the aggfunc as a parameter of the pivot_table function 🥵😅. |
-| **Step 2** Clean & Sort Data:                           | Once the data is filtered into region, state, and city we can rename the columns for better visibility and sort the data in descending order to locate the top store(s) witht the most sales, listed by region, state, and city.  |
+| **Step 2** Clean & Sort Data:                           | Once the data is filtered into region, state, and city we can rename the columns for better visibility and sort the data in descending order to locate the top store(s) with the most sales, listed by region, state, and city.  |
 ---
 #### Most Sales 'Total Sales' - Retailer
 
 | Step                      | Description   |
 | -------------------- | ---------- |
 | **Step 1** Filter 'total_sales' by retailer, region, state, city, and product:   | In this step, the goal is to separate the data using the groupby(), applied .sum() to total the sales. Using pivot_table() function, applied the sum function through the aggfunc as a parameter of the pivot_table function 🥵😅. |
-| **Step 2** Clean & Sort Data:                           | Once the data is filtered into region, state, and city we can rename the columns for better visibility and sort the data in descending order to locate the top store(s) witht the most sales, listed by region, state, and city.  |
+| **Step 2** Clean & Sort Data:                           | Once the data is filtered by retailer we can rename the columns for better visibility and sort the data in descending order to locate the top retailer with the most sales. |
 
 ## Key Findings
 
 | **Summary Finding**                | **Summary Analysis**     |
 | ------------------------------ | -------- |
-| **Most Sales by Region, State, and City**              | The region, state, city with the most sales totaled $8.28 Million in sales, selling Men's Street Footwear in the Northest region of New York, New York. Women's Apparel followed with sales of $7.8 Million in the exact same region, city. |
-| **Number of Products Sold by Region, State, and City** | The most products that an individual store offers is 216 products.                                                              
+| **Number of Products Sold by Region, State, and City** | The most products that an individual store offers is 216 products.| 
+| **Most Sales by Region, State, and City**              | The region, state, city with the most sales totaled $8.28 Million in sales, selling Men's Street Footwear in the Northest region of New York, New York. Women's Apparel followed with sales of $7.8 Million in the exact same region, city. | 
+ |**Most Sales by Retailer**  | The retailer with the most sales was West Gear, located in the West Region, in San Fransisco California, with 6.64 Million in sales of Women's Apparel.|      
+ |**Retailer - Most Sold Women's Athletic Footwear**    | The retailer with the most sold units of Women's Athletic footwear was West Gear in the Western region, located in  San Fransisco California with a total of 12,107 units.  |  
+ |**Women's Athletic Footwear - Most Sold by Day**    | The day with the most Women's Athletic Footwear out of the two years 2020 and 2021 was July 07, 2021 with 540,000 units of Women's Athletic Footwear sold.|
+ |**Women's Athletic Footwear - Most Sold by Week**   | The week with the most sold Women's Athletic Footwear sold was the week of July 11, 2021 with 1,675,000 Million units sold.  |                                        
 
 ## Learning Experience
 
