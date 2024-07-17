@@ -58,5 +58,5 @@ The final feature was a self-imposed challenge based on recent lessons, which in
 
 ## References
 
-[Xpert Learning Asssistant](https://bootcampspot.instructure.com/courses/6028/external_tools/313) - Assisted in debugging throughout assignment.
+[Xpert Learning Asssistant](https://bootcampspot.instructure.com/courses/6028/external_tools/313) - Assisted in debugging throughout assignment.    
 [Chatgpt](https://chatgpt.com/)- Proofreading and spell check README.
